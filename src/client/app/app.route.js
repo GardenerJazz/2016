@@ -16,6 +16,15 @@
                         controller: 'LandingPageCtrl as vm'
                     }
                 }
+            })
+            .state('artists', {
+                url: '/artists',
+                views: {
+                    '': {
+                        templateUrl: 'app/artists/artists.html',
+                        controller: 'ArtistsController as vm'
+                    }
+                }
             });
 
         $urlRouterProvider.otherwise('/404');

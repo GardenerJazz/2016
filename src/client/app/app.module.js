@@ -4,6 +4,7 @@
   angular.module('app', [
     'app.core',
     'app.widgets',
+      'app.artists',
     'app.layout',
     'app.landing'
   ]);
