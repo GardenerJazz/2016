@@ -68,7 +68,11 @@ gulp.task('styles', ['clean-styles'], function() {
     .pipe($.less())
     //        .on('error', errorLogger) // more verbose and dupe output. requires emit.
     .pipe($.autoprefixer({ browsers: ['last 2 version', '> 5%'] }))
-    .pipe(gulp.dest(config.temp));
+    .pipe(gulp.dest(config.temp))
+    .pipe(browserSync.stream());
+    // .pipe(browserSync.reload({
+    //   stream: true
+    // }));
 });
 
 /**
@@ -445,7 +449,7 @@ function serve(isDev, specRunner) {
       log('files changed:\n' + ev);
       setTimeout(function() {
         browserSync.notify('reloading now ...');
-        browserSync.reload({ stream: false });
+        browserSync.reload({ stream: true });
       }, config.browserReloadDelay);
     })
     .on('start', function() {
@@ -493,8 +497,8 @@ function startBrowserSync(isDev, specRunner) {
   // If build: watches the files, builds, and restarts browser-sync.
   // If dev: watches less, compiles it to css, browser-sync handles reload
   if (isDev) {
-    gulp.watch([config.less], ['styles'])
-      .on('change', changeEvent);
+    gulp.watch('**/*.less', ['styles']);
+      //.on('change', changeEvent);
   } else {
     gulp.watch([config.less, config.js, config.html], ['browserSyncReload'])
       .on('change', changeEvent);
@@ -504,9 +508,10 @@ function startBrowserSync(isDev, specRunner) {
     proxy: 'localhost:' + port,
     port: 3000,
     files: isDev ? [
-      config.client + '**/*.*',
-      '!' + config.less,
-      config.temp + '**/*.css'
+        config.client + '**/*.{png,jpg,jpeg,gif,webp,svg,js,jsx,html,css}'
+    //   config.client + '**/*.*',
+    //   '!' + config.less,
+    //   config.temp + '**/*.css'
     ] : [],
     ghostMode: { // these are the defaults t,f,t,t
       clicks: true,
