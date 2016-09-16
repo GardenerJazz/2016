@@ -10,7 +10,7 @@ var $ = require('gulp-load-plugins')({ lazy: true });
 
 var colors = $.util.colors;
 var envenv = $.util.env;
-var port = process.env.PORT || config.defaultPort;
+var port = 9009;//process.env.PORT || config.defaultPort;
 
 /**
  * yargs variables can be passed in to alter the behavior, when present.
@@ -437,7 +437,8 @@ function serve(isDev, specRunner) {
   var debugMode = '--debug';
   var nodeOptions = getNodeOptions(isDev);
 
-  nodeOptions.nodeArgs = [debugMode + '=5858'];
+  // nodeOptions.nodeArgs = [debugMode + '=5858'];
+  nodeOptions.nodeArgs = [debugMode + '=5859'];
 
   if (args.verbose) {
     console.log(nodeOptions);
@@ -506,7 +507,7 @@ function startBrowserSync(isDev, specRunner) {
 
   var options = {
     proxy: 'localhost:' + port,
-    port: 3003,
+    port: 3013,
     files: isDev ? [
         config.client + '**/*.{png,jpg,jpeg,gif,webp,svg,js,jsx,html,css}'
     //   config.client + '**/*.*',
@@ -577,7 +578,7 @@ function startTests(singleRun, done) {
     log('Starting servers');
     var savedEnv = process.env;
     savedEnv.NODE_ENV = 'dev';
-    savedEnv.PORT = 8888;
+    savedEnv.PORT = 8889;
     child = fork(config.nodeServer);
   } else {
     if (serverSpecs && serverSpecs.length) {
