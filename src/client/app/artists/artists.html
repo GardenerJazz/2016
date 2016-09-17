@@ -1,8 +1,14 @@
-<h1>Artists:</h1>
+<h1 class="section-title">Artisti</h1>
 
-<ul ng-repeat="artist in vm.artists">
-    <li>
-        <h3>{{artist.name}}</h3>
-        <p>{{artist.description}}</p>
-    </li>
-</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-12 col-xs-12 thumb" ng-repeat="artist in vm.artists">
+            <a class="artist-thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="{{artist.name}}">
+                <div class="carousel-caption">
+                    <h3>{{artist.name}}</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
