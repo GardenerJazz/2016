@@ -1,10 +1,8 @@
-<!-- TBD -->
 <ul>
-    <li>I</li>
-    <li>will</li>
-    <li>be</li>
-    <li>a</li>
-    <li>menu</li>
-    <li>some</li>
-    <li>day</li>
+    <li class="logo">
+        <img src="images/logo.svg" alt="logo">
+    </li>
+    <li ng-repeat="item in vm.menuItems">
+        <a href="" ng-click="vm.goTo(item.path)" >{{item.name}}</a>
+    </li>
 </ul>
