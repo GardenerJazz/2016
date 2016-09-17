@@ -3,8 +3,8 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-4 col-md-12 col-xs-12 thumb" ng-repeat="artist in vm.artists">
-            <a class="artist-thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="{{artist.name}}">
+            <a class="artist-thumbnail" href="artists/{{artist.id}}">
+                <img class="img-responsive" src="{{artist.imageUrl}}" alt="{{artist.name}}">
                 <div class="carousel-caption">
                     <h3>{{artist.name}}</h3>
                 </div>
