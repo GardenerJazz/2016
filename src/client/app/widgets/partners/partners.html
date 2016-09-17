@@ -1,0 +1,25 @@
+<h2>Sponsori</h2>
+<div class="row">
+    <a
+        ng-repeat="sponsor in vm.sponsors"
+        class="partner col-xs-2 col-md-1"
+        style="background-image: url({{sponsor.image}})"
+        ng-href="{{sponsor.url}}"
+        target="_blank"
+        title="{{sponsor.name}}"
+        >
+    </a>
+</div>
+
+<h2>Parteneri</h2>
+<div class="row">
+    <a
+        ng-repeat="partner in vm.partners"
+        class="partner col-xs-2 col-md-1"
+        style="background-image: url({{partner.image}})"
+        ng-href="{{partner.url}}"
+        target="_blank"
+        title="{{partner.name}}"
+        >
+    </a>
+</div>
