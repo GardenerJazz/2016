@@ -15,5 +15,13 @@
 
     }
 
+    $rootScope.$watch(function() {
+        return vm.showMenu;
+    }, function(n, o) {
+        if (n !== 0) {
+            console.log('toggle menu!');
+        }
+    });
+
   }
 })();

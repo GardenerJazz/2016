@@ -1,3 +1,13 @@
+<button class="icon-button close-menu-button"
+    ng-if="vm.active"
+    ng-click="vm.active = false;">
+    <i class="glyphicon glyphicon-remove"></i>
+</button>
+<button class="icon-button open-menu-button"
+    ng-if="!vm.active"
+    ng-click="vm.active = true;">
+    <i class="glyphicon glyphicon-menu-hamburger"></i>
+</button>
 <ul>
     <li class="logo">
         <img src="images/logo.svg" alt="logo">

@@ -46,7 +46,9 @@
 
         var component = {
             templateUrl: 'app/layout/navigation/menu.html',
-            bindings: {},
+            bindings: {
+                active: '='
+            },
             controller: MenuController,
             controllerAs: 'vm'
         };
