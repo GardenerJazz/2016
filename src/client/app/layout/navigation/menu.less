@@ -2,6 +2,25 @@ menu {
     ul {
         li {
             display: inline-block;
+
+            a {
+                color: #fff;
+                font-size: 13px;
+                font-weight: 500;
+                padding: 5px;
+
+                .standard-transition;
+                .roboto;
+
+                &:hover {
+                    color: @gold;
+                    text-decoration: none;
+                }
+            }
+
+            &.logo img {
+                width: 40px;
+            }
         }
     }
 }
