@@ -10,7 +10,7 @@ var $ = require('gulp-load-plugins')({ lazy: true });
 
 var colors = $.util.colors;
 var envenv = $.util.env;
-var port = process.env.PORT || config.defaultPort;
+var port = 9009;//process.env.PORT || config.defaultPort;
 
 /**
  * yargs variables can be passed in to alter the behavior, when present.
@@ -68,7 +68,11 @@ gulp.task('styles', ['clean-styles'], function() {
     .pipe($.less())
     //        .on('error', errorLogger) // more verbose and dupe output. requires emit.
     .pipe($.autoprefixer({ browsers: ['last 2 version', '> 5%'] }))
-    .pipe(gulp.dest(config.temp));
+    .pipe(gulp.dest(config.temp))
+    .pipe(browserSync.stream());
+    // .pipe(browserSync.reload({
+    //   stream: true
+    // }));
 });
 
 /**
@@ -433,7 +437,8 @@ function serve(isDev, specRunner) {
   var debugMode = '--debug';
   var nodeOptions = getNodeOptions(isDev);
 
-  nodeOptions.nodeArgs = [debugMode + '=5858'];
+  // nodeOptions.nodeArgs = [debugMode + '=5858'];
+  nodeOptions.nodeArgs = [debugMode + '=5859'];
 
   if (args.verbose) {
     console.log(nodeOptions);
@@ -445,7 +450,7 @@ function serve(isDev, specRunner) {
       log('files changed:\n' + ev);
       setTimeout(function() {
         browserSync.notify('reloading now ...');
-        browserSync.reload({ stream: false });
+        browserSync.reload({ stream: true });
       }, config.browserReloadDelay);
     })
     .on('start', function() {
@@ -493,8 +498,8 @@ function startBrowserSync(isDev, specRunner) {
   // If build: watches the files, builds, and restarts browser-sync.
   // If dev: watches less, compiles it to css, browser-sync handles reload
   if (isDev) {
-    gulp.watch([config.less], ['styles'])
-      .on('change', changeEvent);
+    gulp.watch('**/*.less', ['styles']);
+      //.on('change', changeEvent);
   } else {
     gulp.watch([config.less, config.js, config.html], ['browserSyncReload'])
       .on('change', changeEvent);
@@ -502,11 +507,12 @@ function startBrowserSync(isDev, specRunner) {
 
   var options = {
     proxy: 'localhost:' + port,
-    port: 3000,
+    port: 3013,
     files: isDev ? [
-      config.client + '**/*.*',
-      '!' + config.less,
-      config.temp + '**/*.css'
+        config.client + '**/*.{png,jpg,jpeg,gif,webp,svg,js,jsx,html,css}'
+    //   config.client + '**/*.*',
+    //   '!' + config.less,
+    //   config.temp + '**/*.css'
     ] : [],
     ghostMode: { // these are the defaults t,f,t,t
       clicks: true,
@@ -572,7 +578,7 @@ function startTests(singleRun, done) {
     log('Starting servers');
     var savedEnv = process.env;
     savedEnv.NODE_ENV = 'dev';
-    savedEnv.PORT = 8888;
+    savedEnv.PORT = 8889;
     child = fork(config.nodeServer);
   } else {
     if (serverSpecs && serverSpecs.length) {

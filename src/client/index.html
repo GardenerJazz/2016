@@ -5,7 +5,7 @@
   <style>
     /* This helps the ng-show/ng-hide animations start at the right place. */
     /* Since Angular has this but needs to load, this gives us the class early. */
-    
+
     .ng-hide {
       display: none!important;
     }
@@ -35,7 +35,7 @@
 <body>
   <div>
     <div ng-include="'app/layout/shell.html'"></div>
-    <div id="splash-page" ng-show="showSplash">
+    <!-- <div id="splash-page" ng-show="showSplash">
       <div class="page-splash">
         <div class="page-splash-message">
           gardenerjazz-2016
@@ -44,7 +44,7 @@
           <div class="bar"></div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <!-- build:js js/lib.js -->
@@ -65,16 +65,14 @@
   <!-- build:js js/app.js -->
   <!-- inject:js -->
   <script src="/src/client/app/app.module.js"></script>
-  <script src="/src/client/app/admin/admin.module.js"></script>
   <script src="/src/client/app/blocks/exception/exception.module.js"></script>
   <script src="/src/client/app/blocks/logger/logger.module.js"></script>
   <script src="/src/client/app/blocks/router/router.module.js"></script>
   <script src="/src/client/app/core/core.module.js"></script>
-  <script src="/src/client/app/dashboard/dashboard.module.js"></script>
+  <script src="/src/client/app/landing-page/landing.module.js"></script>
   <script src="/src/client/app/layout/layout.module.js"></script>
-  <script src="/src/client/app/widgets/widgets.module.js"></script>
-  <script src="/src/client/app/admin/admin.controller.js"></script>
-  <script src="/src/client/app/admin/admin.route.js"></script>
+  <script src="/src/client/app/widgets/widget.module.js"></script>
+  <script src="/src/client/app/app.route.js"></script>
   <script src="/src/client/app/blocks/exception/exception-handler.provider.js"></script>
   <script src="/src/client/app/blocks/exception/exception.js"></script>
   <script src="/src/client/app/blocks/logger/logger.js"></script>
@@ -82,15 +80,11 @@
   <script src="/src/client/app/core/config.js"></script>
   <script src="/src/client/app/core/constants.js"></script>
   <script src="/src/client/app/core/core.route.js"></script>
-  <script src="/src/client/app/core/dataservice.js"></script>
-  <script src="/src/client/app/dashboard/dashboard.controller.js"></script>
-  <script src="/src/client/app/dashboard/dashboard.route.js"></script>
-  <script src="/src/client/app/layout/ht-sidebar.directive.js"></script>
-  <script src="/src/client/app/layout/ht-top-nav.directive.js"></script>
+  <script src="/src/client/app/landing-page/landingPage.controller.js"></script>
+  <script src="/src/client/app/layout/footer/footer.component.js"></script>
+  <script src="/src/client/app/layout/navigation/menu.component.js"></script>
   <script src="/src/client/app/layout/shell.controller.js"></script>
-  <script src="/src/client/app/layout/sidebar.controller.js"></script>
-  <script src="/src/client/app/widgets/ht-img-person.directive.js"></script>
-  <script src="/src/client/app/widgets/ht-widget-header.directive.js"></script>
+  <script src="/src/client/app/widgets/partners/partners.component.js"></script>
   <!-- endinject -->
 
   <!-- inject:templates:js -->
