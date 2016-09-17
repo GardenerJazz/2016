@@ -1,5 +1,6 @@
-<div ng-controller="ShellController as vm" class="container-fluid">
-  <menu></menu>
+<div ng-controller="ShellController as vm" class="container-fluid"
+  ng-class="{'menu-opened': vm.showMenu}">
+  <menu ng-class="{active: vm.showMenu}" active="vm.showMenu"></menu>
   <div ui-view class="view"></div>
   <footer></footer>
 </div>
