@@ -18,8 +18,30 @@ menu {
         }
     }
 
+    &.fixed {
+        @media @tablet {
+            position: fixed;
+            width: 100%;
+            background: @blackish;
+            top: -80px;
+            left: 0;
+            box-sizing: border-box;
+            padding-top: 10px;
+            margin: 0;
+            z-index: 1000;
+            transform: translateY(80px);
+            transition: all 100ms ease-out;
+
+            & + div {
+                padding-top: 80px;
+            }
+        }
+
+    }
+
     @media @mobile {
         height: 15px;
+
         ul {
             display: none;
         }

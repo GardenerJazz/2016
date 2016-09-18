@@ -6,9 +6,18 @@
 @import "buttons";
 @import "fonts";
 @import "mixins";
+@import "hacks";
+
+html {
+    background-image: url(../images/landing/hippie-music-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 body {
-    background: @dark-green;
+    background: fade(@dark-green, 90);
     color: #fff;
     margin: 0;
 }
@@ -29,7 +38,32 @@ body {
     outline: none;
 }
 
-.section-title {
-    text-align: center;
-    padding: 40px;
+.section {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+
+    &.white-bg {
+        background-color: @white;
+    }
+
+    &-title {
+        text-align: center;
+        padding: 40px;
+    }
+
+    &-content {
+        width: 100%;
+
+        &.center-y {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .hero-image {
+            max-width: 600px;
+            width: 60%;
+        }
+    }
 }

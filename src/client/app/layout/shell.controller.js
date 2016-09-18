@@ -12,7 +12,20 @@
     activate();
 
     function activate() {
+        toggleMenuAppearanceByScroll();
+    }
 
+    function toggleMenuAppearanceByScroll() {
+        var body = document.body,
+            menu = $('menu'),
+            menuHeight = 100;
+
+        document.addEventListener('scroll', function() {
+            var scrollTop = body.scrollTop,
+                isFixed = scrollTop > menuHeight;
+
+            menu.toggleClass('fixed', isFixed);
+        }, false);
     }
 
     $rootScope.$watch(function() {

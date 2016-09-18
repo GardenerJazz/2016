@@ -11,6 +11,7 @@
             var vm = this;
 
             vm.isActive = isActive;
+            vm.goTo = goTo;
 
             vm.menuItems = [
                 {
@@ -39,8 +40,6 @@
                 }
             ];
 
-            vm.goTo = goTo;
-
             function goTo(path) {
                 $state.go(path);
             }
@@ -64,6 +63,5 @@
         };
 
         return component;
-
     }
 })();
