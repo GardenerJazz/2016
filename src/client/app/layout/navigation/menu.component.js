@@ -10,6 +10,8 @@
         function MenuController($state) {
             var vm = this;
 
+            vm.isActive = isActive;
+
             vm.menuItems = [
                 {
                     name: 'Acasa',
@@ -41,6 +43,14 @@
 
             function goTo(path) {
                 $state.go(path);
+            }
+
+            function isActive(item) {
+                if ($state.current.name === 'artist' && item.path === 'artists') {
+                    return true;
+                }
+
+                return item.path === $state.current.name;
             }
         }
 

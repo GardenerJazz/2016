@@ -13,6 +13,6 @@
         <img src="images/logo.svg" alt="logo">
     </li>
     <li ng-repeat="item in vm.menuItems">
-        <a href="" ng-click="vm.goTo(item.path)" >{{item.name}}</a>
+        <a href="" ng-click="vm.goTo(item.path)" ng-class="{active: vm.isActive(item)}">{{item.name}}</a>
     </li>
 </ul>
