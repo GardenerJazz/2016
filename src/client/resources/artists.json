@@ -1,32 +1,43 @@
 [{
     "id": "peter-sarik-trio",
     "name": "Peter Sarik Trio",
-    "description": "\"It's an honour and an enormous challenge to adapt the works of a great master such as Beethoven. As with all adaptations, I thought it was very important to retain the original mood and message of each piece. Also, I tried to imagine that if the master lived now, and he had a superb jazz trio as I do, how he would rearrange his own music. I believe he would be just as bold, unique and innovative in our times too. We followed this direction with  our  adaptations,  so  we'll  probably  surprise  the  audience  several times, because we boldly use the rhythms which are in fashion today, the new features of modern jazz and pop. It's a wonderful game, and it's been proven lots of times that the really great works don't only stand the test oftime but placed into our modern environment they get a new life and give the impression as if they had just been composed\" - Peter Sarik. <br><br> Peter Sarik Trio x Beethoven este un proiect muzical format din Peter Sarik (pian), Tibor Fonay (chitara bas, contrabas) si Attila Galfi (tobe), care adapteaza compozitiile maestrului Beethoven intr-un mod cu totul special. Pe langa cele mai cunoscute sonate pentru pian ale lui Beethoven, trio-ul canta chiar si cateva dintre cele mai cunoscute simfonii ale sale. Este foarte interesant pentru spectatori sa asculte cum, atat prin compozitie cat si prin improvizatie, ritmurile de jazz si pop se amesteca intr-o forma omogena cu muzica clasica.<br><br>Trio-ul si-a facut un obicei de a canta Oda Bucuriei impreuna cu publicul spectator la fiecare concert, asa ca, sa va pregatiti versurile!",
+    "descriptions": [
+        "\"It's an honour and an enormous challenge to adapt the works of a great master such as Beethoven. As with all adaptations, I thought it was very important to retain the original mood and message of each piece. Also, I tried to imagine that if the master lived now, and he had a superb jazz trio as I do, how he would rearrange his own music. I believe he would be just as bold, unique and innovative in our times too. We followed this direction with  our  adaptations,  so  we'll  probably  surprise  the  audience  several times, because we boldly use the rhythms which are in fashion today, the new features of modern jazz and pop. It's a wonderful game, and it's been proven lots of times that the really great works don't only stand the test oftime but placed into our modern environment they get a new life and give the impression as if they had just been composed\" - Peter Sarik. ",
+        "Peter Sarik Trio x Beethoven este un proiect muzical format din Peter Sarik (pian), Tibor Fonay (chitara bas, contrabas) si Attila Galfi (tobe), care adapteaza compozitiile maestrului Beethoven intr-un mod cu totul special. Pe langa cele mai cunoscute sonate pentru pian ale lui Beethoven, trio-ul canta chiar si cateva dintre cele mai cunoscute simfonii ale sale. Este foarte interesant pentru spectatori sa asculte cum, atat prin compozitie cat si prin improvizatie, ritmurile de jazz si pop se amesteca intr-o forma omogena cu muzica clasica.",
+        "Trio-ul si-a facut un obicei de a canta Oda Bucuriei impreuna cu publicul spectator la fiecare concert, asa ca, sa va pregatiti versurile!"
+    ],
     "imageUrl": "images/artists/peter-sarik-trio/peter.jpg",
-    "youtubeVideo": "https://www.youtube.com/v/zE08CEBfElo"
+    "youtubeVideo": "https://www.youtube.com/v/zE08CEBfElo",
+    "sn": {
+        "facebook": "https://www.facebook.com/petersarikpiano?fref=ts",
+        "twitter": "https://twitter.com/petersarik",
+        "gplus": "",
+        "youtube": "https://www.youtube.com/user/SarikPeter",
+        "instagram": ""
+    }
 }, {
     "id": "pintilie",
     "name": "Viorica Pintilie Trio",
-    "description": "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani...",
+    "descriptions": [ "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani..." ],
     "imageUrl": "http://placehold.it/400x300"
 },{
     "id": "romanescu",
     "name": "Sorin Romanescu & Elena Morariu",
-    "description": "O intâlnire care explorează în duo sonorități diverse, multiculturale, aparținând folclorului românesc, dar și culturii turce sau franceze...",
+    "descriptions": [ "O intâlnire care explorează în duo sonorități diverse, multiculturale, aparținând folclorului românesc, dar și culturii turce sau franceze..." ],
     "imageUrl": "http://placehold.it/400x300"
 }, {
     "id": "pintilie",
     "name": "Viorica Pintilie Trio",
-    "description": "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani...",
+    "descriptions": [ "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani..." ],
     "imageUrl": "http://placehold.it/400x300"
 },{
     "id": "romanescu",
     "name": "Sorin Romanescu & Elena Morariu",
-    "description": "O intâlnire care explorează în duo sonorități diverse, multiculturale, aparținând folclorului românesc, dar și culturii turce sau franceze...",
+    "descriptions": [ "O intâlnire care explorează în duo sonorități diverse, multiculturale, aparținând folclorului românesc, dar și culturii turce sau franceze..." ],
     "imageUrl": "http://placehold.it/400x300"
 }, {
     "id": "pintilie",
     "name": "Viorica Pintilie Trio",
-    "description": "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani...",
+    "descriptions": [ "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani..." ],
     "imageUrl": "http://placehold.it/400x300"
 }]

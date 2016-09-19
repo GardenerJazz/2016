@@ -5,9 +5,23 @@
     </div>
 </section>
 
+<section class="section section">
+    <div class="section__content">
+        <ul class="sn__list">
+            <li class="sn__item" ng-repeat="(snTitle, snUrl) in vm.artist.sn">
+                <a class="sn__item--{{snTitle}}" href="{{snUrl}}" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+</section>
+
 <section class="section section--white">
     <div class="section__content">
-        <p class="lead text-justify" ng-bind-html="vm.artist.description"></p>
+        <br><br>
+        <p class="lead text-justify" ng-repeat="description in vm.artist.descriptions">
+            {{ description }}
+            <br><br>
+        </p>
     </div>
 </section>
 
