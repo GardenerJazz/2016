@@ -5,6 +5,16 @@
     </div>
 </section>
 
+<section class="section section">
+    <div class="section__content">
+        <ul class="sn__list">
+            <li class="sn__item" ng-repeat="(snTitle, snUrl) in vm.artist.sn">
+                <a class="sn__item--{{snTitle}}" href="{{snUrl}}" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+</section>
+
 <section class="section section--white">
     <div class="section__content">
         <br><br>

@@ -7,7 +7,14 @@
         "Trio-ul si-a facut un obicei de a canta Oda Bucuriei impreuna cu publicul spectator la fiecare concert, asa ca, sa va pregatiti versurile!"
     ],
     "imageUrl": "images/artists/peter-sarik-trio/peter.jpg",
-    "youtubeVideo": "https://www.youtube.com/v/zE08CEBfElo"
+    "youtubeVideo": "https://www.youtube.com/v/zE08CEBfElo",
+    "sn": {
+        "facebook": "https://www.facebook.com/petersarikpiano?fref=ts",
+        "twitter": "https://twitter.com/petersarik",
+        "gplus": "",
+        "youtube": "https://www.youtube.com/user/SarikPeter",
+        "instagram": ""
+    }
 }, {
     "id": "pintilie",
     "name": "Viorica Pintilie Trio",
