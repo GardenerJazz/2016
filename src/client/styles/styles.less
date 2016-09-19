@@ -1,18 +1,15 @@
-@import "../app/layout/navigation/menu.less";
-@import "../app/widgets/widgets.less";
-@import "../app/about/about.less";
-@import "../app/artists/artists.less";
 @import "colors";
 @import "buttons";
 @import "fonts";
 @import "mixins";
 @import "widgets";
 @import "hacks";
+@import "pages";
 
 body {
     background: fade(@dark-green, 75);
     color: #fff;
-    margin: 0;
+    position: absolute;
 }
 .shell-container {
     margin: 0;
@@ -32,22 +29,79 @@ body {
 }
 
 .section {
-    width: 100vw;
-    min-height: 100vh;
     position: relative;
+    width: 100vw;
 
-    &.white-bg {
+    &:after {
+        content: '';
+        clear: both;
+    }
+
+    &--full {
+        min-height: 100vh;
+    }
+
+    &--white {
         background-color: @white;
+        color: @dark-gray;
+
+        border-left: 0;
+        border-right: 0;
+        border-top: 21px;
+        border-bottom: 21px;
+        border-style: solid;
+
+        &:before, &:after {
+            height: 2px;
+            content: '';
+            background: @white;
+            width: 100%;
+            display: block;
+            position: relative;
+        }
+
+        &:before {
+            top: -6px;
+        }
+        &:after {
+            top: 20px;
+        }
+
+        .section__content {
+            &:before, &:after {
+                height: 6px;
+                content: '';
+                background: @white;
+                width: 100%;
+                display: block;
+                position: absolute;
+                left: 0;
+            }
+
+            &:before {
+                top: -20px;
+            }
+            &:after {
+                bottom: -10px;
+            }
+        }
     }
 
-    &-title {
+    &__title {
         text-align: center;
-        padding: 40px;
+        padding: 20px 0;
     }
 
-    &-content {
-        width: 100%;
+    &__content {
+        width: 60%;
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 20px 0;
 
+        &--full {
+            max-width: none;
+            width: 100%;
+        }
         &.center-y {
             position: absolute;
             top: 50%;
@@ -60,3 +114,17 @@ body {
         }
     }
 }
+//
+// .section:not(.section--white) + .section:not(.section--white) {
+//     border-top: 2px solid transparent;
+//
+//     &:after {
+//         content: '';
+//         display: block;
+//         width: 100%;
+//         position: relative;
+//         height: 2px;
+//         background-color: @white;
+//         top: -4px;
+//     }
+// }

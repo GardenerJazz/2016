@@ -6,7 +6,8 @@
     'app.widgets',
     'app.artists',
     'app.layout',
-    'app.landing'
+    'app.landing',
+    'app.past'
   ]);
 
 })();

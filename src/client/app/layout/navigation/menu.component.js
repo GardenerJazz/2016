@@ -16,11 +16,11 @@
             vm.menuItems = [
                 {
                     name: 'Acasa',
-                    path: 'default'
+                    path: 'home'
                 },
                 {
                     name: 'Despre Festival',
-                    path: 'fest'
+                    path: 'about'
                 },
                 {
                     name: 'Artisti',
@@ -31,8 +31,8 @@
                     path: 'schedule'
                 },
                 {
-                    name: 'Parteneri',
-                    path: 'partners'
+                    name: 'Editiile trecute',
+                    path: 'past'
                 },
                 {
                     name: 'Contact',
