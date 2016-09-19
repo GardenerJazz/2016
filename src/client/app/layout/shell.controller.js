@@ -5,31 +5,36 @@
     .module('app.layout')
     .controller('ShellController', ShellController);
 
-  ShellController.$inject = ['$rootScope', '$timeout', 'config', 'logger'];
   /* @ngInject */
   function ShellController($rootScope, $timeout, config, logger) {
     var vm = this;
-    vm.busyMessage = 'Please wait ...';
-    vm.isBusy = true;
-    $rootScope.showSplash = true;
-    vm.navline = {
-      title: config.appTitle,
-      text: 'Created by John Papa',
-      link: 'http://twitter.com/john_papa'
-    };
 
     activate();
 
     function activate() {
-      logger.success(config.appTitle + ' loaded!', null);
-      hideSplash();
+        toggleMenuAppearanceByScroll();
     }
 
-    function hideSplash() {
-      //Force a 1 second delay so we can see the splash.
-      $timeout(function() {
-        $rootScope.showSplash = false;
-      }, 1000);
+    function toggleMenuAppearanceByScroll() {
+        var body = document.body,
+            menu = $('menu'),
+            menuHeight = 100;
+
+        document.addEventListener('scroll', function() {
+            var scrollTop = body.scrollTop,
+                isFixed = scrollTop > menuHeight;
+
+            menu.toggleClass('fixed', isFixed);
+        }, false);
     }
+
+    $rootScope.$watch(function() {
+        return vm.showMenu;
+    }, function(n, o) {
+        if (n !== 0) {
+            console.log('toggle menu!');
+        }
+    });
+
   }
 })();

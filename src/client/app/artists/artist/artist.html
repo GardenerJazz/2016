@@ -1,0 +1,34 @@
+<section class="section section">
+    <h2 class="section__title">{{vm.artist.name}}</h2>
+    <div class="section__content">
+        <img class="img-responsive" src="{{vm.artist.imageUrl}}">
+    </div>
+</section>
+
+<section class="section section">
+    <div class="section__content">
+        <ul class="sn__list">
+            <li class="sn__item" ng-repeat="(snTitle, snUrl) in vm.artist.sn">
+                <a class="sn__item--{{snTitle}}" href="{{snUrl}}" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section section--white">
+    <div class="section__content">
+        <br><br>
+        <p class="lead text-justify" ng-repeat="description in vm.artist.descriptions">
+            {{ description }}
+            <br><br>
+        </p>
+    </div>
+</section>
+
+<section class="section" ng-if="vm.artist.youtubeVideo">
+    <div class="section__content">
+        <div class="container text-center embed-container">
+            <iframe width="560" height="315" ng-src="{{vm.artist.youtubeVideo | trustAsResourceUrl}}" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>

@@ -4,9 +4,10 @@
   angular.module('app', [
     'app.core',
     'app.widgets',
-    'app.admin',
-    'app.dashboard',
-    'app.layout'
+    'app.artists',
+    'app.layout',
+    'app.landing',
+    'app.past'
   ]);
 
 })();
