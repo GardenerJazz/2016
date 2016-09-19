@@ -13,6 +13,6 @@
         <img src="images/logo.svg" alt="logo">
     </li>
     <li ng-repeat="item in vm.menuItems">
-        <a ui-sref="{{item.path}}" ui-sref-active="active">{{item.name}}</a>
+        <a ui-sref="{{item.path}}" ui-sref-active="active" ng-click="vm.active=false">{{item.name}}</a>
     </li>
 </ul>
