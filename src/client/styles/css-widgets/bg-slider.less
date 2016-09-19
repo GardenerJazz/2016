@@ -1,0 +1,124 @@
+.bg-slider {
+    @step-count: 5;
+    @step-duration: 6s;
+
+    // preload the slider images
+    background: url('../images/bg-cycle/1.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/2.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/3.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/4.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/5.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/6.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/7.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/8.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/9.jpg') no-repeat -99999px -99999px,
+                url('../images/bg-cycle/10.jpg') no-repeat -99999px -99999px;
+
+    &:before, &:after {
+        content: '';
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+        animation-duration: @step-count * @step-duration * 2;
+        // animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+        filter: grayscale(100%);
+    }
+
+    &:before {
+        background-image: url(../images/bg-cycle/1.jpg);
+        animation-name: cycle-bg-images1;
+    }
+
+    &:after {
+        background-image: url(../images/bg-cycle/2.jpg);
+        animation-name: cycle-bg-images2;
+        animation-delay: @step-duration;
+    }
+}
+
+@keyframes cycle-bg-images1 {
+    10%, 30%, 50%, 70%, 90% {
+        opacity: 0;
+        transform: scale(1.2);
+        transform-origin: center;
+    }
+    9.9%, 29.9%, 49.9%, 69.9%, 89.9% {
+        transform: translateX(-5%) scale(1.1);
+    }
+
+    0% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/1.jpg);
+        transform-origin: 40% 40%;
+
+    }
+    20% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/3.jpg);
+        transform-origin: 40% 60%;
+    }
+    40% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/5.jpg);
+        transform-origin: 60% 60%;
+    }
+    60% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/7.jpg);
+        transform-origin: 60% 40%;
+    }
+    80% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/9.jpg);
+        transform-origin: 50% 50%;
+    }
+}
+@keyframes cycle-bg-images2 {
+    10%, 30%, 50%, 70%, 90% {
+        opacity: 0;
+        transform: scale(1.2);
+        transform-origin: center;
+    }
+    9.9%, 29.9%, 49.9%, 69.9%, 89.9% {
+        transform: translateX(5%) scale(1.1);
+    }
+
+    0% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/2.jpg);
+        transform-origin: 40% 40%;
+
+    }
+    20% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/4.jpg);
+        transform-origin: 40% 60%;
+    }
+    40% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/6.jpg);
+        transform-origin: 60% 60%;
+    }
+    60% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/8.jpg);
+        transform-origin: 60% 40%;
+    }
+    80% {
+        opacity: 1;
+        background-image: url(../images/bg-cycle/10.jpg);
+        transform-origin: 50% 50%;
+    }
+}

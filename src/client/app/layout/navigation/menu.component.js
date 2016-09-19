@@ -11,15 +11,16 @@
             var vm = this;
 
             vm.isActive = isActive;
+            vm.goTo = goTo;
 
             vm.menuItems = [
                 {
                     name: 'Acasa',
-                    path: 'default'
+                    path: 'home'
                 },
                 {
                     name: 'Despre Festival',
-                    path: 'fest'
+                    path: 'about'
                 },
                 {
                     name: 'Artisti',
@@ -30,16 +31,14 @@
                     path: 'schedule'
                 },
                 {
-                    name: 'Parteneri',
-                    path: 'partners'
+                    name: 'Editiile trecute',
+                    path: 'past'
                 },
                 {
                     name: 'Contact',
                     path: 'contact'
                 }
             ];
-
-            vm.goTo = goTo;
 
             function goTo(path) {
                 $state.go(path);
@@ -64,6 +63,5 @@
         };
 
         return component;
-
     }
 })();
