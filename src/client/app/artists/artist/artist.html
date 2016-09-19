@@ -7,7 +7,11 @@
 
 <section class="section section--white">
     <div class="section__content">
-        <p class="lead text-justify" ng-bind-html="vm.artist.description"></p>
+        <br><br>
+        <p class="lead text-justify" ng-repeat="description in vm.artist.descriptions">
+            {{ description }}
+            <br><br>
+        </p>
     </div>
 </section>
 
