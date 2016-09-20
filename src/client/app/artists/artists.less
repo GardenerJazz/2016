@@ -31,37 +31,32 @@
     }
 
     &__item {
+        background-color: @light-gold;
+        border-radius: 100%;
         display: inline-block;
         height: 40px;
         margin-left: 10px;
         margin-right: 10px;
+        padding-top: 5px;
+        transform: scale(0.8);
+        transition: all 300ms ease;
         width: 40px;
 
+        i {
+            font-size: 30px;
+        }
+
         a {
+            color: inherit;
             display: block;
             height: 100%;
             position: relative;
+            text-decoration: none;
             width: 100%;
         }
 
-        &--facebook {
-            background: url('../../images/sn-icons/sn-facebook.png');
-        }
-
-        &--twitter {
-            background: url('../../images/sn-icons/sn-twitter.png');
-        }
-
-        &--gplus {
-            background: url('../../images/sn-icons/sn-gplus.png');
-        }
-
-        &--youtube {
-            background: url('../../images/sn-icons/sn-youtube.png');
-        }
-
-        &--instagram {
-            background: url('../../images/sn-icons/sn-instagram.png');
+        &:hover {
+            transform: scale(0.9);
         }
     }
 }
