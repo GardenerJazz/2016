@@ -9,7 +9,9 @@
     <div class="section__content">
         <ul class="sn__list">
             <li class="sn__item" ng-repeat="(snTitle, snUrl) in vm.artist.sn">
-                <a class="sn__item--{{snTitle}}" href="{{snUrl}}" target="_blank"></a>
+                <a href="{{snUrl}}" target="_blank">
+                    <i class="ionicons ion-social-{{snTitle}}"></i>
+                </a>
             </li>
         </ul>
     </div>
