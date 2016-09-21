@@ -1,15 +1,16 @@
-<section class="section section">
+<section class="section text-center">
     <h2 class="section__title">{{vm.artist.name}}</h2>
+    <a ng-if="vm.artist.site" ng-href="{{vm.artist.site}}" target="_blank" title="site-ul oficial {{vm.artist.name}}">{{vm.artist.site}}</a>
     <div class="section__content">
         <img class="img-responsive" src="{{vm.artist.imageUrl}}">
     </div>
 </section>
 
-<section class="section section">
+<section class="section">
     <div class="section__content">
         <ul class="sn__list">
-            <li class="sn__item" ng-repeat="(snTitle, snUrl) in vm.artist.sn">
-                <a href="{{snUrl}}" target="_blank">
+            <li class="sn__item" ng-repeat="(snTitle, snUrl) in vm.artist.sn" ng-if="snUrl">
+                <a ng-href="{{snUrl}}" target="_blank">
                     <i class="ionicons ion-social-{{snTitle}}"></i>
                 </a>
             </li>
@@ -19,10 +20,8 @@
 
 <section class="section section--white">
     <div class="section__content">
-        <br><br>
         <p class="lead text-justify" ng-repeat="description in vm.artist.descriptions">
-            {{ description }}
-            <br><br>
+            {{description}}
         </p>
     </div>
 </section>

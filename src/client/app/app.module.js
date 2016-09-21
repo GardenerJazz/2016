@@ -7,6 +7,8 @@
     'app.artists',
     'app.layout',
     'app.landing',
+    'app.about',
+    'app.schedule',
     'app.past'
   ]);
 

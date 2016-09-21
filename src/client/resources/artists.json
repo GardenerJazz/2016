@@ -1,43 +1,43 @@
-[{
-    "id": "peter-sarik-trio",
-    "name": "Peter Sarik Trio",
-    "descriptions": [
-        "\"It's an honour and an enormous challenge to adapt the works of a great master such as Beethoven. As with all adaptations, I thought it was very important to retain the original mood and message of each piece. Also, I tried to imagine that if the master lived now, and he had a superb jazz trio as I do, how he would rearrange his own music. I believe he would be just as bold, unique and innovative in our times too. We followed this direction with  our  adaptations,  so  we'll  probably  surprise  the  audience  several times, because we boldly use the rhythms which are in fashion today, the new features of modern jazz and pop. It's a wonderful game, and it's been proven lots of times that the really great works don't only stand the test oftime but placed into our modern environment they get a new life and give the impression as if they had just been composed\" - Peter Sarik. ",
-        "Peter Sarik Trio x Beethoven este un proiect muzical format din Peter Sarik (pian), Tibor Fonay (chitara bas, contrabas) si Attila Galfi (tobe), care adapteaza compozitiile maestrului Beethoven intr-un mod cu totul special. Pe langa cele mai cunoscute sonate pentru pian ale lui Beethoven, trio-ul canta chiar si cateva dintre cele mai cunoscute simfonii ale sale. Este foarte interesant pentru spectatori sa asculte cum, atat prin compozitie cat si prin improvizatie, ritmurile de jazz si pop se amesteca intr-o forma omogena cu muzica clasica.",
-        "Trio-ul si-a facut un obicei de a canta Oda Bucuriei impreuna cu publicul spectator la fiecare concert, asa ca, sa va pregatiti versurile!"
-    ],
-    "imageUrl": "images/artists/peter-sarik-trio/peter.jpg",
-    "youtubeVideo": "https://www.youtube.com/v/zE08CEBfElo",
-    "sn": {
-        "facebook": "https://www.facebook.com/petersarikpiano?fref=ts",
-        "twitter": "https://twitter.com/petersarik",
-        "googleplus": "",
-        "youtube": "https://www.youtube.com/user/SarikPeter",
-        "instagram": ""
-    }
-}, {
-    "id": "pintilie",
-    "name": "Viorica Pintilie Trio",
-    "descriptions": [ "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani..." ],
-    "imageUrl": "http://placehold.it/400x300"
-},{
-    "id": "romanescu",
-    "name": "Sorin Romanescu & Elena Morariu",
-    "descriptions": [ "O intâlnire care explorează în duo sonorități diverse, multiculturale, aparținând folclorului românesc, dar și culturii turce sau franceze..." ],
-    "imageUrl": "http://placehold.it/400x300"
-}, {
-    "id": "pintilie",
-    "name": "Viorica Pintilie Trio",
-    "descriptions": [ "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani..." ],
-    "imageUrl": "http://placehold.it/400x300"
-},{
-    "id": "romanescu",
-    "name": "Sorin Romanescu & Elena Morariu",
-    "descriptions": [ "O intâlnire care explorează în duo sonorități diverse, multiculturale, aparținând folclorului românesc, dar și culturii turce sau franceze..." ],
-    "imageUrl": "http://placehold.it/400x300"
-}, {
-    "id": "pintilie",
-    "name": "Viorica Pintilie Trio",
-    "descriptions": [ "O voce puternică și expresivă, cu accente grave și catifelate, VIORICA PINTILIE este pe scenă de la 15 ani..." ],
-    "imageUrl": "http://placehold.it/400x300"
-}]
+[
+    {
+        "id": "peter-sarik-trio",
+        "name": "Peter Sarik Trio",
+        "site": "http://petersarik.com/",
+        "descriptions": [
+            "\"It's an honour and an enormous challenge to adapt the works of a great master such as Beethoven. As with all adaptations, I thought it was very important to retain the original mood and message of each piece. Also, I tried to imagine that if the master lived now, and he had a superb jazz trio as I do, how he would rearrange his own music. I believe he would be just as bold, unique and innovative in our times too. We followed this direction with  our  adaptations,  so  we'll  probably  surprise  the  audience  several times, because we boldly use the rhythms which are in fashion today, the new features of modern jazz and pop. It's a wonderful game, and it's been proven lots of times that the really great works don't only stand the test oftime but placed into our modern environment they get a new life and give the impression as if they had just been composed\" - Peter Sarik. ",
+            "Peter Sarik Trio x Beethoven este un proiect muzical format din Peter Sarik (pian), Tibor Fonay (chitara bas, contrabas) si Attila Galfi (tobe), care adapteaza compozitiile maestrului Beethoven intr-un mod cu totul special. Pe langa cele mai cunoscute sonate pentru pian ale lui Beethoven, trio-ul canta chiar si cateva dintre cele mai cunoscute simfonii ale sale. Este foarte interesant pentru spectatori sa asculte cum, atat prin compozitie cat si prin improvizatie, ritmurile de jazz si pop se amesteca intr-o forma omogena cu muzica clasica.",
+            "Trio-ul si-a facut un obicei de a canta Oda Bucuriei impreuna cu publicul spectator la fiecare concert, asa ca, sa va pregatiti versurile!"
+        ],
+        "imageUrl": "images/artists/peter-sarik-trio/peter.jpg",
+        "youtubeVideo": "https://www.youtube.com/v/zE08CEBfElo",
+        "sn": {
+            "facebook": "https://www.facebook.com/petersarikpiano?fref=ts",
+            "twitter": "https://twitter.com/petersarik",
+            "gplus": "",
+            "youtube": "https://www.youtube.com/user/SarikPeter",
+            "instagram": ""
+        }
+    },
+    {
+        "id": "luiza-zan",
+        "name": "Luiza Zan",
+        "site": "http://luizazan.ro/",
+        "descriptions": [
+            "Nascută în 1980, Luiza Zan si-a început cariera la vârsta de 4 ani. Atunci a câștigat premiul I la un concurs pentru șoimii patriei din timpul epocii comuniste. Aceeași piesă interpretată la concursul pentru copii („Frunzuliţa d’alior”) îi aduce premiul I la Festivalul Internațional Cerbul de Aur, din iulie 2004, la exact o săptămână după cucerirea unui prestigios premiu al II-lea la Festivalul de Jazz din Montreux, Elveția.",
+            "Luiza Zan a studiat canto clasic timp de 9 ani consecutiv, urmând cursurile Liceului de Artă din Piatra Neamţ și pe cele ale Universităţii de Arte Iași.",
+            "Concursul din Montreux i-a oferit șansa de a cânta acompaniată de muzicieni de renume precum Geri Allen, Bob Hurst, Eric Harland sau Omar Hakim. La Gala Premiilor de Jazz din 2004, eveniment organizat de Radiodifuziunea Română, i s-a acordat ”Premiul Confirmării”.",
+            "Printre numeroșii muzicieni alături de care a cântat se numără Rick Condit –profesor și saxofonist din Statele Unite care a cântat cu Ella Fitzgerald big band –, Mircea Tiberian, Romeo Cosma, Ion Baciu Jr., Armen Donelian, Jurgen Bothner, Arthur Balogh,Vlaicu Golcea, Vlad Popescu, Sorin Romanescu, Electric Brother,  Dj Vasile,  McNeeste State University Big Band din Louisianna, Petras Geniusas, Alex Harding, etc.",
+            "Artista s-a implicat de-a lungul timpului în proiecte muzicale, dar si din alte zone artistice, facand parte din echipa spectacolului de teatru ”Napasta”, in regia lui Radu Afrim, de asemenea, aparand in distributia spectacolului de dans contemporan ”Visa Game”, alaturi de Cosmin Manolescu si Pascal Allio.",
+            "A scris muzica de film – ”Carambol”, ”Circul Vesel” (HBO), ”Australia” (HBO)",
+            "Este un apreciat pedagog, fiind invitata in repetate randuri in cadrul taberei de creatie ”IconArts”, alaturi de nume sonore din muzica internationala clasica si jazz."
+        ],
+        "imageUrl": "images/artists/luiza-zan/luiza-zan.jpg",
+        "youtubeVideo": "https://www.youtube.com/v/9z-QbAn4WYw",
+        "sn": {
+            "facebook": "https://www.facebook.com/luizazanofficial",
+            "twitter": "https://twitter.com/zanluiza",
+            "gplus": "",
+            "youtube": "https://www.youtube.com/user/SarikPeter",
+            "instagram": "https://www.instagram.com/explore/tags/luizazan/"
+        }
+    }]

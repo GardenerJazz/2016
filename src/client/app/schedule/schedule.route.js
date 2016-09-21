@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.about')
+        .module('app.schedule')
         .run(appRun);
 
     /*@ngInject*/
@@ -13,12 +13,12 @@
     function getStates() {
         return [
             {
-                state: 'about',
+                state: 'schedule',
                 config: {
-                    url: '/about',
+                    url: '/schedule',
                     views: {
                         '': {
-                            templateUrl: 'app/about/about.html'
+                            templateUrl: 'app/schedule/schedule.html'
                         }
                     }
                 }
