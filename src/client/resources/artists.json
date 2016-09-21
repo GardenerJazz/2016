@@ -13,9 +13,27 @@
         "sn": {
             "facebook": "https://www.facebook.com/petersarikpiano?fref=ts",
             "twitter": "https://twitter.com/petersarik",
-            "gplus": "",
-            "youtube": "https://www.youtube.com/user/SarikPeter",
-            "instagram": ""
+            "youtube": "https://www.youtube.com/user/SarikPeter"
+        }
+    },
+    {
+        "id": "china-moses",
+        "name": "China Moses",
+        "site": "http://www.chinamoses.com/",
+        "descriptions": [
+            "China is a woman of the new millennium. Born in the United States and raised in France, she is multi-dimensional in her pursuits. As a professional vocalist, songwriter, music producer, television and radio host, China recently released her fifth studio album, “Crazy Blues”, in conjunction with a licensing deal between Universal Music Group International and her own production company, MadeInChina Productions.",
+            "Balancing an international tour schedule with her other professional interests, she has produced documentaries and radio programs through her production company. Additionally, China co-founded Notorious Communication, a full-service public relations firm focusing on Fashion, Culture and entertainment, whose campaigns service top-tier clients, including Vans, Etnies, Nike and New Look among others.",
+            "Having signed her first contract with Virgin Records France at the age of fifteen, China has since navigated the French media world while developing her artistic career. In 1999, she launched her TV career on French music channel MCM, then joined the ranks of MTV International, in 2004, as \"On Air\" talent and music journalist for MTV France, where she worked until this year.",
+            "She spent a year appearing on France’s prime-time TV talk show, “Le Grand Journal,” airing on Canal+ and hosted a daily on-air show on JazzRadio. Out of these projects, China created a music sponsorship program for the ERDF group, for which she serves as an advisor.",
+            "Beyond her professional ventures, China is an active philanthropist. She is developing an ambassadorship program with UNESCO partner, International Music Council, to promote musical diversity and open access to culture. She routinely lends her participation to charitable ventures, such as “Solidarité Sida” (AIDS Solidarity) and “Tout le Monde Chante Contre le Cancer” (Everyone Sings Against Cancer) and is an advocate of the arts in education."
+        ],
+        "imageUrl": "https://scontent.fotp3-1.fna.fbcdn.net/t31.0-8/14361249_1272412069465069_2718321675231385774_o.jpg",
+        "youtubeVideo": "https://www.youtube.com/watch?v=N9Qx1lYgJ5o",
+        "sn": {
+            "facebook": "https://www.facebook.com/chinamoses/?fref=ts",
+            "twitter": "https://twitter.com/chinamoses",
+            "youtube": "https://www.youtube.com/user/mllechina",
+            "instagram": "https://www.instagram.com/chinamoses/"
         }
     },
     {
@@ -36,8 +54,40 @@
         "sn": {
             "facebook": "https://www.facebook.com/luizazanofficial",
             "twitter": "https://twitter.com/zanluiza",
-            "gplus": "",
             "youtube": "https://www.youtube.com/user/SarikPeter",
             "instagram": "https://www.instagram.com/explore/tags/luizazan/"
         }
-    }]
+    },
+    {
+        "id": "jazzy-bit",
+        "name": "JazzyBIT",
+        "site": "http://jazzybit.ro",
+        "descriptions": [
+            "JazzyBIT (n. 2 februarie 2012, Timișoara) este un trio format din Teodor Pop (pian, claviaturi), Mihai Moldoveanu (bas) și Szabó Csongor-Zsolt (tobe), ce oferă o combinație energică de jazz și rock, presărată cu blues, latin și funk. După ce câștigă Premiul pentru debut pe 2013 al Fundației Muzza din București, trupa lansează independent primul album “Touch the Sky” la începutul lui 2014, album ce ajunge pe locul 9 în controversatul top al muzicii românești “Muzici și Faze”.",
+            "Urmează peste 100 de concerte atât în țară, cât și în Ungaria (Budapest Jazz Club și A38), Austria sau Italia, unde JazzyBIT a ajuns în finala competiției European Jazz Award din cadrul festivalului Tuscia in Jazz. În 2016 trupa revine cu al doilea album “Horizon”, înregistrat la renumitul studio din Ungaria “SuperSize Recording” și publicat la casa de discuri EM Records."
+        ],
+        "imageUrl": "http://jazzybit.ro/wp-content/uploads/2015/01/JazzyBIT-2013-2.jpg",
+        "youtubeVideo": "https://www.youtube.com/watch?v=xx3nx1J1598",
+        "sn": {
+            "facebook": "https://www.facebook.com/JazzyBIT.band/",
+            "googleplus": "https://plus.google.com/115339545051115312766",
+            "youtube": "https://www.youtube.com/channel/UCHpNGNZx2DInMHwVqtEMHxw"
+        }
+    },
+    {
+        "id": "blue-noise",
+        "name": "Blue Noise",
+        "site": "http://bluenoise.ro",
+        "descriptions": [
+            "Cele șase voci sunt șase interpreți cu o pregătire artistică solidă, activi de-a lungul timpului în diverse formații. Patru dintre ei au făcut parte din trupa Jazzappella, prima formație a capella din România. În cei aproape trei ani de Jazzappella au pus bazele genului a cappella în România, învățând din mers, găsindu-și treptat un public care i-a susținut și i-a urmărit. Au susținut peste 120 de concerte, în țară și în festivaluri internaționale de jazz, producându-se alături de nume importante ale genului, printre care amintim Swingle Singers și Vocal Sampling.",
+            "Patru interpreți au hotărât să meargă mai departe, să continue experimentul muzical în ideea unui „laborator de voci”. Experiența dobândită în jazz-ul a cappella le permite să abordeze acum alte genuri muzicale. Iar cei doi noi membri ai formației aduc un suflu nou și influențe diferite. În universul muzical al formației, sonoritățile jazz din anii ’50 – ’60 se amestecă cu ritmuri de pop, rhythm and blues și beat box.",
+            "Blue Noise este povestea antagonismelor care creează împreună o muzicalitate originală. Culoarea albastră te duce cu gândul la liniște, la melancolie, la armonie. Iar zgomotul este elementul perturbant, el aduce disonanța, lipsa calmului. Blue este o referință și la labelul mitic de jazz Blue Note, jazz-ul fiind genul muzical aflat la baza repertoriului formației. Noise reprezintă toate celelalte influențe care îmbogățesc acest repertoriu. Cele două reunite spun povestea unei formații unice în România: șase voci creează muzică a cappella cum n-ai mai auzit!"
+        ],
+        "imageUrl": "http://bluenoise.ro/wp-content/uploads/2015/09/11896380_822497897865887_4082452067193517602_o-1024x683.jpg",
+        "youtubeVideo": "https://www.youtube.com/watch?v=Vi2b4F8D-3E",
+        "sn": {
+            "facebook": "https://www.facebook.com/wearebluenoise/about/?entry_point=page_nav_about_item&tab=page_info",
+            "youtube": "https://www.youtube.com/channel/UC6mHvranH1VQ0_LbihC90DQ"
+        }
+    }
+]
