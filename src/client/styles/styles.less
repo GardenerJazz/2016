@@ -10,6 +10,7 @@ body {
     background: fade(@dark-green, 75);
     color: #fff;
     position: absolute;
+    overflow-x: hidden;
 }
 .shell-container {
     margin: 0;
@@ -31,6 +32,7 @@ body {
 .section {
     position: relative;
     width: 100vw;
+    padding: 40px 0;
 
     &:after {
         content: '';
@@ -38,7 +40,11 @@ body {
     }
 
     &--full {
-        min-height: 100vh;
+        min-height: ~"calc(100vh - 2 * 40px)";
+    }
+
+    &--gray {
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     &--white {
@@ -98,10 +104,16 @@ body {
         max-width: 600px;
         padding: 20px 0;
 
+        &:after {
+            content: "";
+            clear: both;
+        }
+
         &--full {
             max-width: none;
             width: 100%;
         }
+
         &.center-y {
             position: absolute;
             top: 50%;
@@ -128,3 +140,9 @@ body {
 //         top: -4px;
 //     }
 // }
+
+.big-number {
+    color: @gold;
+    font-size: 4em;
+    display: block;
+}
