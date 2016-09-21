@@ -14,8 +14,7 @@
                 {
                     name: 'Thinslices',
                     url: 'http://www.thinslices.com/',
-                    // image: 'http://www.thinslices.com/wp-content/themes/thinslicescom_new/images/TS_logo_blue_website.svg'
-                    image: 'http://profs.info.uaic.ro/~itc2fii/Build-IT/images/colaboratori/thinslices.png'
+                    image: 'http://iasi-mit.org/wp-content/uploads/2015/04/Logo_4.png'
                 },
                 {
                     name: 'Antibiotice',
