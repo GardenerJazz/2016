@@ -1,6 +1,7 @@
 [
     {
         "id": "peter-sarik-trio",
+        "disabled": false,
         "name": "Peter Sarik Trio",
         "site": "http://petersarik.com/",
         "descriptions": [
@@ -18,6 +19,7 @@
     },
     {
         "id": "china-moses",
+        "disabled": true,
         "name": "China Moses",
         "site": "http://www.chinamoses.com/",
         "descriptions": [
@@ -38,6 +40,7 @@
     },
     {
         "id": "luiza-zan",
+        "disabled": false,
         "name": "Luiza Zan",
         "site": "http://luizazan.ro/",
         "descriptions": [
@@ -60,6 +63,7 @@
     },
     {
         "id": "jazzy-bit",
+        "disabled": false,
         "name": "JazzyBIT",
         "site": "http://jazzybit.ro",
         "descriptions": [
@@ -76,6 +80,7 @@
     },
     {
         "id": "blue-noise",
+        "disabled": true,
         "name": "Blue Noise",
         "site": "http://bluenoise.ro",
         "descriptions": [

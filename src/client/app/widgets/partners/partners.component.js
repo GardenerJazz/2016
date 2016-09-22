@@ -14,41 +14,65 @@
                 {
                     name: 'Thinslices',
                     url: 'http://www.thinslices.com/',
-                    image: 'http://iasi-mit.org/wp-content/uploads/2015/04/Logo_4.png'
+                    image: 'images/parteneri/Logo_TS.png'
                 },
                 {
                     name: 'Antibiotice',
                     url: 'http://www.antibiotice.ro/',
-                    image: 'http://www.antibiotice.ro/wp-content/themes/antibiotice/images/antibiotice-logo.png'
+                    image: 'images/parteneri/Logo_Antibiotice.jpg'
                 },
                 {
-                    name: 'Xivic',
-                    url: 'http://www.xivic.com/',
-                    image: 'https://pbs.twimg.com/profile_images/1125643544/xivicinc_400x400.jpg'
+                    name: 'Ford',
+                    url: 'http://www.ford-iasi.ro/',
+                    image: 'images/parteneri/Logo_Ford.png'
                 },
                 {
-                    name: 'Wedalert',
-                    url: 'https://www.facebook.com/wedalert.ro',
-                    image: 'https://scontent-fra3-1.xx.fbcdn.net/v/t1.0-1/10945720_1549941321950356_6088432585448441425_n.png?oh=32727bd63991be781958311f59ccec9e&oe=587A7846'
+                    name: 'Innovative IT',
+                    url: 'http://innovate-medical.ro/',
+                    image: 'images/parteneri/Logo_InnovativeIt.jpg'
                 },
                 {
                     name: 'Conest',
                     url: 'http://www.conestiasi.ro',
-                    image: 'http://www.conestiasi.ro/app/img/logo_top.png'
+                    image: 'images/parteneri/Logo_Conest.png'
+                },
+                {
+                    name: 'Kolos Group',
+                    url: 'http://www.kolosgroup.ro/',
+                    image: 'images/parteneri/Logo_KolosGroup.png'
+                },
+                {
+                    name: 'Printco',
+                    url: 'http://www.printco.ro/',
+                    image: 'images/parteneri/Logo_Printco.png'
                 }
             ];
 
             vm.partners = [
                 {
-                    name: 'TVR Iasi',
-                    url: 'http://iasi.tvr.ro/',
-                    image: 'http://gardenerjazz.ro/2015/images/logos/Logo_TVRIasi.png'
+                    name: 'Fundatia Comunitara Iasi',
+                    url: 'http://www.fundatiacomunitaraiasi.ro/',
+                    image: 'images/parteneri/Logo_FundatiaComIasi.png'
                 },
                 {
                     name: 'Studioul de Baza',
                     url: 'https://www.facebook.com/StudioulDeBaza',
-                    image: 'http://gardenerjazz.ro/2015/images/logos/Logo_StudiouldeBaza.png'
+                    image: 'images/parteneri/Logo_StudiouldeBaza.png'
+                },
+                {
+                    name: 'Wedalert',
+                    url: 'https://www.facebook.com/wedalert.ro',
+                    image: 'images/parteneri/Logo_Wedalert.png'
+                },
+                {
+                    name: 'Pixel Bonkers',
+                    url: '',
+                    image: 'images/parteneri/Logo_PixelBonkers.png'
                 }
+            ];
+
+            vm.mediaPartners = [
+
             ];
         }
 
