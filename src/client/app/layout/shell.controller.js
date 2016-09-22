@@ -17,7 +17,7 @@
 
     function toggleMenuAppearanceByScroll() {
         var body = document.body,
-            menu = $('menu'),
+            menu = angular.element('menu'),
             menuHeight = 100;
 
         document.addEventListener('scroll', function() {
