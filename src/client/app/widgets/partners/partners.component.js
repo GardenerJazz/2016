@@ -55,6 +55,11 @@
                     image: 'images/parteneri/Logo_FundatiaComIasi.png'
                 },
                 {
+                    name: 'Tudor Bolnavu Photography',
+                    url: 'http://tudorbolnavu.ro/',
+                    image: 'images/parteneri/Logo_TudorBolnavu.jpg'
+                },
+                {
                     name: 'Studioul de Baza',
                     url: 'https://www.facebook.com/StudioulDeBaza',
                     image: 'images/parteneri/Logo_StudiouldeBaza.png'

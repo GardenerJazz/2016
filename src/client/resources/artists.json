@@ -62,6 +62,24 @@
         }
     },
     {
+        "id": "sebastian-spanache-trio",
+        "disabled": false,
+        "name": "Sebastian Spanache Trio",
+        "site": "http://www.sebastianspanachetrio.com/",
+        "descriptions": [
+            "Sebastian Spanache Trio is placed at the leading edge of the new generation of young romanaian jazz musicians with award-winning new and original material by fans and critics alike. The three form a group with a new take on modern odd-meter song-based improvisation, a group that invites the audience to share in the navigation of their own musical future. The trio was established in fall of 2011 in Timisoara, Romania.",
+            "After about a year of preparing their material, in February of 2013 the trio went into the studio to record their first official album 'HUMANIZED'. From the first bars of 'Argentina' you can tell this is not going to be your usual jazz endeavor: the tunes are skillfully crafted, with intricate meters and complex, unexpected forms. The influences borrow from a wide musical palette, with grooves and atmospheres suggestive of ambient or electronic music. 'Seven is Your Friend' starts hot only to regain balance within the unique vitality of improvisations, in-the-moment dialogue and attention to the architecture of musical storytelling. And 'Red' calls to mind an ethereal journey through present-times music that goes beyond what you would typically hear in a 'classic' jazz piano trio.",
+            "In 2014, recordings of the trio's second album titled 'A PASHA'S ABSTINENCE' begin early in January. The CD features eight original compositions which introduce subtle ottoman traditional music elements - a culture that has greatly influenced romanian music and romanian culture as a whole - in the trio's critically acclaimed song-based improvisation, intricate compositions and organic interplay. 'A Pasha's Abstinence' features the beautiful talent of a select few additions to the trio: Joanna Kucharczyk (vocal), Alex Simu (soprano clarinet), George Dumitriu (guitar) and Berti Barbera (percussion). The title track of the album also features a string quartet consisting of Banatul Philharmonic of Timisoara artists Cătălina Trincă (v), Otilia Marița (v), Iuliana Birtea (vio) and Lidia Cosmin (cello).",
+            "Sebastian Spanache Trio has a great track record of appearances on the local and international jazz scene opening for world class names such as Richard Bona (at JazzTM), Adam Bałdych Imaginary Quartet (GreenHours Intl. Festival), Robert Mitchell's Panacea (ArCub Jazz&More), participating in showcase events such as MÜPA Budapest Jazz Showcase, touring in Romania and the CE European region (with the release of Humanized) as well as being awarded the grand trophy at Johnny Raducanu International Jazz Competition in Braila. The trio has also been wonderfully embraced by the local and international speciality press and critics."
+        ],
+        "imageUrl": "images/artists/ss3/ss3.jpg",
+        "youtubeVideo": "https://www.youtube.com/v/wnmZ7pAcBp8",
+        "sn": {
+            "facebook": "https://www.facebook.com/SebastianSpanacheTrio",
+            "youtube": "https://www.youtube.com/channel/UC_ajGYYfBEMSVxVcgBR_BNQ"
+        }
+    },
+    {
         "id": "jazzy-bit",
         "disabled": false,
         "name": "JazzyBIT",
