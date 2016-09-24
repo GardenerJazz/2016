@@ -1,6 +1,6 @@
 <div ng-controller="ShellController as vm"
     ng-class="{'menu-opened': vm.showMenu}">
     <menu ng-class="{active: vm.showMenu}" active="vm.showMenu"></menu>
-    <div ui-view class="view"></div>
+    <div ui-view class="view" autoscroll="true"></div>
     <footer></footer>
 </div>
