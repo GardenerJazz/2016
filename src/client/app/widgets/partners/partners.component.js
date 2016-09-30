@@ -73,6 +73,11 @@
                     name: 'Pixel Bonkers',
                     url: '',
                     image: 'images/parteneri/Logo_PixelBonkers.png'
+                },
+                {
+                    name: 'Code Camp',
+                    url: 'http://iasi.codecamp.ro/',
+                    image: 'images/parteneri/Logo_Codecamp.png'
                 }
             ];
 
