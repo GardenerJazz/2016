@@ -1,8 +1,8 @@
-<h2>Sponsori</h2>
-<div class="row">
+<div class="row col-lg-6">
+    <h2>Sponsori</h2>
     <a
         ng-repeat="sponsor in vm.sponsors"
-        class="partner col-xs-3 col-md-2"
+        class="partner col-xs-4 col-sm-3"
         style="background-image: url({{sponsor.image}})"
         ng-href="{{sponsor.url}}"
         target="_blank"
@@ -10,12 +10,12 @@
         >
     </a>
 </div>
-
-<h2>Parteneri</h2>
-<div class="row">
+<div class="row col-lg-1"></div>
+<div class="row col-lg-5">
+    <h2>Parteneri</h2>
     <a
         ng-repeat="partner in vm.partners"
-        class="partner col-xs-3 col-md-2"
+        class="partner col-xs-4 col-sm-3"
         style="background-image: url({{partner.image}})"
         ng-href="{{partner.url}}"
         target="_blank"
