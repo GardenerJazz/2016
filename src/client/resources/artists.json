@@ -98,15 +98,18 @@
     },
     {
         "id": "blue-noise",
-        "disabled": true,
+        "disabled": false,
         "name": "Blue Noise",
         "site": "http://bluenoise.ro",
         "descriptions": [
+            "Blue Noise: șase voci creează muzică a cappella unică pe piața românească!",
             "Cele șase voci sunt șase interpreți cu o pregătire artistică solidă, activi de-a lungul timpului în diverse formații. Patru dintre ei au făcut parte din trupa Jazzappella, prima formație a capella din România. În cei aproape trei ani de Jazzappella au pus bazele genului a cappella în România, învățând din mers, găsindu-și treptat un public care i-a susținut și i-a urmărit. Au susținut peste 120 de concerte, în țară și în festivaluri internaționale de jazz, producându-se alături de nume importante ale genului, printre care amintim Swingle Singers și Vocal Sampling.",
-            "Patru interpreți au hotărât să meargă mai departe, să continue experimentul muzical în ideea unui „laborator de voci”. Experiența dobândită în jazz-ul a cappella le permite să abordeze acum alte genuri muzicale. Iar cei doi noi membri ai formației aduc un suflu nou și influențe diferite. În universul muzical al formației, sonoritățile jazz din anii ’50 – ’60 se amestecă cu ritmuri de pop, rhythm and blues și beat box.",
-            "Blue Noise este povestea antagonismelor care creează împreună o muzicalitate originală. Culoarea albastră te duce cu gândul la liniște, la melancolie, la armonie. Iar zgomotul este elementul perturbant, el aduce disonanța, lipsa calmului. Blue este o referință și la labelul mitic de jazz Blue Note, jazz-ul fiind genul muzical aflat la baza repertoriului formației. Noise reprezintă toate celelalte influențe care îmbogățesc acest repertoriu. Cele două reunite spun povestea unei formații unice în România: șase voci creează muzică a cappella cum n-ai mai auzit!"
+            "Patru interpreți au hotărât să meargă mai departe, să continue experimentul muzical în ideea unui „laborator de voci”. Experiența dobândită în jazz-ul a cappella le permite să abordeze acum alte genuri muzicale. Iar cei doi noi membri ai formației aduc un suflu nou și influențe diferite. În universul muzical al formației, sonoritățile jazz din anii '50 - '60 se amestecă cu ritmuri de pop, rhythm and blues și beat box.",
+            "Blue Noise este povestea antagonismelor care creează împreună o muzicalitate originală. Culoarea albastră te duce cu gândul la liniște, la melancolie, la armonie. Iar zgomotul este elementul perturbant, el aduce disonanța, lipsa calmului. Blue este o referință și la labelul mitic de jazz Blue Note, jazz-ul fiind genul muzical aflat la baza repertoriului formației. Noise reprezintă toate celelalte influențe care îmbogățesc acest repertoriu. Cele două reunite spun povestea unei formații unice în România: șase voci creează muzică a cappella cum n-ai mai auzit!",
+            "Blue Noise este povestea unei formații care vrea să bucure, să emoționeze, să impresioneze printr-un univers artistic inedit și prin virtuozitate muzicală. Membrii grupului te vor cuceri prin pasiunea pe care o pun în muzică, prin carisma lor și prin plăcerea pe care o au de a cânta împreună. Bine ai venit! Vocalizează!",
+            "Blue Noise se numără printre cei 12 finaliști ai preselecției pentru Eurovision 2015! Piesa trimisă în preselecție se numește Love Won’t Run Away și este o creație originală a membrilor formației. Este prima oară când o piesă a cappella este selecționată să participe la finala pe țară pentru Eurovision. Si asta nu e tot. Blue Noise a avut o prestatie solida, printre nume celebre ale muzicii romanesti si s-au clasat la sfarsitul concursului pe un merituos loc 4. O performata unica a unei formatii a capella."
         ],
-        "imageUrl": "http://bluenoise.ro/wp-content/uploads/2015/09/11896380_822497897865887_4082452067193517602_o-1024x683.jpg",
+        "imageUrl": "images/artists/blue-noise/blue-noise.jpg",
         "youtubeVideo": "https://www.youtube.com/v/Vi2b4F8D-3E",
         "sn": {
             "facebook": "https://www.facebook.com/wearebluenoise/about/?entry_point=page_nav_about_item&tab=page_info",
