@@ -35,6 +35,10 @@
                     path: 'past'
                 },
                 {
+                    name: 'Echipa',
+                    path: 'team'
+                },
+                {
                     name: 'Contact',
                     path: 'contact'
                 }
