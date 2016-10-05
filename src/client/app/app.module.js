@@ -9,6 +9,7 @@
     'app.landing',
     'app.about',
     'app.schedule',
+    'app.team',
     'app.past'
   ]);
 

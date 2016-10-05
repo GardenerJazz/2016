@@ -1,0 +1,26 @@
+<h2 class="section__title">Echipa</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4 thumb" ng-repeat="member in vm.team" ng-if="!member.disabled">
+            <div class="team-thumbnail">
+                <div class="team-photo" style="background-image:url({{member.imageUrl}})">
+                    <div class="carousel-caption">
+                        <h3>{{member.name}}</h3>
+                    </div>
+                </div>
+
+                <div class="team-sn">
+                    <ul class="team-sn__list">
+                        <li ng-repeat="(snTitle, snUrl) in member.sn" ng-if="snUrl">
+                            <a href="{{snUrl}}" target="_blank">
+                                <i class="ionicons ion-social-{{snTitle}}"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
