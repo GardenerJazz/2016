@@ -13,17 +13,18 @@
         "linkedin": "https://www.linkedin.com/in/dana-gradinariu-25341aaa"
     }
 }, {
-    "name": "Anca Croitoriu",
-    "imageUrl": "images/team/40square_Anca.png",
-    "sn": {
-        "linkedin": "https://www.linkedin.com/in/anca-croitoriu-88728734"
-    }
-}, {
     "name": "Petra Zaharia",
     "imageUrl": "images/team/67square_Petra.png",
     "sn": {
         "facebook": "https://www.facebook.com/petra.haliga?fref=ts",
         "linkedin": "https://www.linkedin.com/in/petronela-zaharia-459359a"
+    }
+}, {
+    "name": "Cristi Niamțu",
+    "imageUrl": "images/team/51square_Cristi.png",
+    "sn": {
+        "facebook": "https://www.facebook.com/niamtu.cristi?fref=ts",
+        "linkedin": "https://ro.linkedin.com/in/cristiniamtu"
     }
 }, {
     "name": "Alina Axane",
