@@ -19,6 +19,10 @@
             .team-sn__list li i {
                 transform: scale(1);
             }
+
+            .team-name {
+                transform: translateY(220px);
+            }
         }
         .team-photo {
             p {
@@ -61,37 +65,45 @@
         transition: all 180ms ease;
         width: 100%;
         z-index: 12;
-    }
+        
+        .team-name {
+            font-size: 20px;
+            text-align: center;
+            top: -200px;
+            transition: all 180ms ease-out;
+            word-spacing: 220px;
+            z-index: 0;
+        }
 
-    .team-sn__list {
-        list-style-type: none;
-        padding: 0;
-        margin-top: 100px;
-        text-align: center;
+        .team-sn__list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 130px;
+            text-align: center;
 
-        li {
-            color: @light-gold;
-            display: inline-block;
-            height: 40px;
-            margin-left: 5px;
-            margin-right: 5px;
-            width: 40px;
-
-            a {
-                color: inherit;
+            li {
+                color: @light-gold;
                 display: inline-block;
-            }
+                height: 40px;
+                margin-left: 3px;
+                margin-right: 3px;
+                width: 40px;
 
-            i {
-                transition: all 300ms ease;
-                transform: scale(0.1);
-                font-size: 30px;
-            }
+                a {
+                    color: inherit;
+                    display: inline-block;
+                }
 
-            &:hover {
-                cursor: pointer;
+                i {
+                    transition: all 300ms ease;
+                    transform: scale(0.1);
+                    font-size: 30px;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
     }
-
 }
