@@ -19,7 +19,7 @@
     },
     {
         "id": "china-moses",
-        "disabled": true,
+        "disabled": false,
         "name": "China Moses",
         "site": "http://www.chinamoses.com/",
         "descriptions": [
@@ -29,7 +29,7 @@
             "She spent a year appearing on France’s prime-time TV talk show, “Le Grand Journal,” airing on Canal+ and hosted a daily on-air show on JazzRadio. Out of these projects, China created a music sponsorship program for the ERDF group, for which she serves as an advisor.",
             "Beyond her professional ventures, China is an active philanthropist. She is developing an ambassadorship program with UNESCO partner, International Music Council, to promote musical diversity and open access to culture. She routinely lends her participation to charitable ventures, such as “Solidarité Sida” (AIDS Solidarity) and “Tout le Monde Chante Contre le Cancer” (Everyone Sings Against Cancer) and is an advocate of the arts in education."
         ],
-        "imageUrl": "https://scontent.fotp3-1.fna.fbcdn.net/t31.0-8/14361249_1272412069465069_2718321675231385774_o.jpg",
+        "imageUrl": "images/artists/china-moses/china-moses.jpg",
         "youtubeVideo": "https://www.youtube.com/v/N9Qx1lYgJ5o",
         "sn": {
             "facebook": "https://www.facebook.com/chinamoses/?fref=ts",
@@ -88,12 +88,28 @@
             "JazzyBIT (n. 2 februarie 2012, Timișoara) este un trio format din Teodor Pop (pian, claviaturi), Mihai Moldoveanu (bas) și Szabó Csongor-Zsolt (tobe), ce oferă o combinație energică de jazz și rock, presărată cu blues, latin și funk. După ce câștigă Premiul pentru debut pe 2013 al Fundației Muzza din București, trupa lansează independent primul album “Touch the Sky” la începutul lui 2014, album ce ajunge pe locul 9 în controversatul top al muzicii românești “Muzici și Faze”.",
             "Urmează peste 100 de concerte atât în țară, cât și în Ungaria (Budapest Jazz Club și A38), Austria sau Italia, unde JazzyBIT a ajuns în finala competiției European Jazz Award din cadrul festivalului Tuscia in Jazz. În 2016 trupa revine cu al doilea album “Horizon”, înregistrat la renumitul studio din Ungaria “SuperSize Recording” și publicat la casa de discuri EM Records."
         ],
-        "imageUrl": "http://jazzybit.ro/wp-content/uploads/2015/01/JazzyBIT-2013-2.jpg",
+        "imageUrl": "images/artists/jazzybit/jazzybit.jpg",
         "youtubeVideo": "https://www.youtube.com/v/xx3nx1J1598",
         "sn": {
             "facebook": "https://www.facebook.com/JazzyBIT.band/",
             "googleplus": "https://plus.google.com/115339545051115312766",
             "youtube": "https://www.youtube.com/channel/UCHpNGNZx2DInMHwVqtEMHxw"
+        }
+    },
+    {
+        "id": "edmond-blial-band",
+        "disabled": false,
+        "name": "Edmond Blial Band",
+        "descriptions": [
+            "Edmond Bilal Band este rezultatul unei conexiuni frumoase intre Paul Robert [saxophones], Simon Chavaillon [piano], Mathias Monseigne [guitare & bass] and Curtis Efoua [drums] la Conservatoarele din Agen si Bordeaux.",
+            "Condusi de groove, baietii contopesc improvizatia si compozitia pentru a conecta acusticul si electricul.",
+            "Din anul 2010, grupul este prezent pe scenele festivalurilor si concertelor locale sau internationale. Prima data au concertat pe scena festivalului Les 24 heures du Swing de Monségur, apoi la Saint Emilion Jazz Festival, reusind in scurt timp sa cucereasca scenele din Franta."
+        ],
+        "imageUrl": "images/artists/edmond-blial-band/edmond-blial-band.jpg",
+        "youtubeVideo": "https://www.youtube.com/v/r-0zyTFzplw",
+        "sn": {
+            "facebook": "https://www.facebook.com/EdmondBilalBand/?fref=ts",
+            "youtube": "https://www.youtube.com/channel/UCIbTd7QqXfi6WgJl_2DgVdQ"
         }
     },
     {
@@ -114,6 +130,23 @@
         "sn": {
             "facebook": "https://www.facebook.com/wearebluenoise/about/?entry_point=page_nav_about_item&tab=page_info",
             "youtube": "https://www.youtube.com/channel/UC6mHvranH1VQ0_LbihC90DQ"
+        }
+    },
+    {
+        "id": "javra",
+        "disabled": false,
+        "name": "Javra",
+        "descriptions": [
+            "JAVRA este noul proiect al cântăreţei Ana-Cristina Leonte. Trupa a fost invitată la mai multe festivaluri cum ar fi Street Delivery (2014), Train Delivery (2014), Jazz Wave Chisinau (2014), JazzBook Festival(2015), Chef de pace Râsnov (2015), Brasov Jazz & Blues Festival (2015) și a castigat în 2014 premiul revistei Sunete la categoria Best New Jazz.",
+            "Are la baza un sound și un concept îndrăzneț și imprevizibil. Compozițiile trupei oscilează stilistic între downtempo, jazz, trip hop, funk, neo-soul și dnb, în funcţie de trăirile exprimate şi de backgroundul divers al muzicienilor implicaţi: Ana-Cristina Leonte – vocals, Albert Tajti – keybord, Michael Acker – bass, Alex Munte – sax, Tavi Scurtu – drums.",
+            "Extemporizările când lirice, delicate şi subtile, când directe și funky ale claviaturilor stăpânite calm de Albert se întâlnesc cu liniile de bas elegante, puternice și melodioase ale lui Michael, solourile de sax evocative, îndrăzneţe şi dramatice ale lui Munte, beat-urile laid back ale lui Tavi și cântul expresiv, cu versuri inspirate și personale, al Anei-Cristina, pentru a crea un sound proaspăt, incitant, captivant şi mai presus de toate răvășitor.",
+            "Inima cântă și în toate mișcările sângele curge cu viteza dragostei pentru sunet. Fără nici un fel de motiv deosebit sau vreo metaforă goală, fără a cauta ceva mai presus decât dorința de a dărui muzică, adică vibrație organizată de inspirație și nu pur și simplu un fenomen fizic, acest proiect se poate numi în orice fel."
+        ],
+        "imageUrl": "images/artists/javra/javra.jpg",
+        "youtubeVideo": "https://www.youtube.com/v/NmcdNtEvuw4",
+        "sn": {
+            "facebook": "https://www.facebook.com/javraband/?fref=ts",
+            "youtube": "https://www.youtube.com/channel/UC6WzlhsaUwfpvNNXYetJb3g"
         }
     }
 ]
