@@ -16,7 +16,7 @@
     }
 }, {
     "name": "Petra Zaharia",
-    "title": "PR & Marketing",
+    "title": "Sponsorizări",
     "imageUrl": "images/team/67square_Petra.png",
     "sn": {
         "facebook": "https://www.facebook.com/petra.haliga?fref=ts",
@@ -24,7 +24,7 @@
     }
 }, {
     "name": "Cristi Niamțu",
-    "title": "PR & Marketing",
+    "title": "Sponsorizări",
     "imageUrl": "images/team/51square_Cristi.png",
     "sn": {
         "facebook": "https://www.facebook.com/niamtu.cristi?fref=ts",
@@ -32,11 +32,18 @@
     }
 }, {
     "name": "Alina Axane",
-    "title": "PR & Marketing",
+    "title": "Sponsorizări",
     "imageUrl": "images/team/72square_Alina.png",
     "sn": {
         "facebook": "https://www.facebook.com/alina.axane?fref=ts",
         "linkedin": "https://ro.linkedin.com/in/alinaxane"
+    }
+}, {
+    "name": "Anca Croitoriu",
+    "title": "Manager proiect",
+    "imageUrl": "images/team/40square_Anca.png",
+    "sn": {
+        "linkedin": "https://ro.linkedin.com/in/anca-croitoriu-88728734"
     }
 }, {
     "name": "Iulia Pușcaru",
@@ -45,6 +52,14 @@
     "sn": {
         "facebook": "https://www.facebook.com/juli.iul?fref=ts",
         "linkedin": "https://www.linkedin.com/in/iulia-puscaru-5580ab58"
+    }
+}, {
+    "name": "Alexandru Pricop",
+    "title": "Design website & promo",
+    "imageUrl": "images/team/41square_Alex.png",
+    "sn": {
+        "facebook": "https://www.facebook.com/solozaur?fref=ts",
+        "linkedin": "https://www.linkedin.com/in/alexpricop"
     }
 }, {
     "name": "Marian Ilașcu",
