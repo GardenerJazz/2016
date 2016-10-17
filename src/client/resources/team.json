@@ -23,8 +23,15 @@
         "linkedin": "https://www.linkedin.com/in/petronela-zaharia-459359a"
     }
 }, {
-    "name": "Cristi Niamțu",
+    "name": "Anca Croitoriu",
     "title": "Sponsorizări",
+    "imageUrl": "images/team/40square_Anca.png",
+    "sn": {
+        "linkedin": "https://ro.linkedin.com/in/anca-croitoriu-88728734"
+    }
+}, {
+    "name": "Cristi Niamțu",
+    "title": "PR",
     "imageUrl": "images/team/51square_Cristi.png",
     "sn": {
         "facebook": "https://www.facebook.com/niamtu.cristi?fref=ts",
@@ -32,18 +39,11 @@
     }
 }, {
     "name": "Alina Axane",
-    "title": "Sponsorizări",
+    "title": "PR",
     "imageUrl": "images/team/72square_Alina.png",
     "sn": {
         "facebook": "https://www.facebook.com/alina.axane?fref=ts",
         "linkedin": "https://ro.linkedin.com/in/alinaxane"
-    }
-}, {
-    "name": "Anca Croitoriu",
-    "title": "Manager proiect",
-    "imageUrl": "images/team/40square_Anca.png",
-    "sn": {
-        "linkedin": "https://ro.linkedin.com/in/anca-croitoriu-88728734"
     }
 }, {
     "name": "Iulia Pușcaru",
