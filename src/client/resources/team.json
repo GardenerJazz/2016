@@ -23,11 +23,44 @@
         "linkedin": "https://www.linkedin.com/in/petronela-zaharia-459359a"
     }
 }, {
-    "name": "Anca Croitoriu",
-    "title": "Sponsorizări",
-    "imageUrl": "images/team/40square_Anca.png",
+    "name": "Iulia Pușcaru",
+    "title": "Design",
+    "imageUrl": "images/team/05square_Iulia.png",
     "sn": {
-        "linkedin": "https://ro.linkedin.com/in/anca-croitoriu-88728734"
+        "facebook": "https://www.facebook.com/juli.iul?fref=ts",
+        "linkedin": "https://www.linkedin.com/in/iulia-puscaru-5580ab58"
+    }
+}, {
+    "name": "Alexandru Pricop",
+    "title": "Design",
+    "imageUrl": "images/team/41square_Alex.png",
+    "sn": {
+        "facebook": "https://www.facebook.com/solozaur?fref=ts",
+        "linkedin": "https://www.linkedin.com/in/alexpricop"
+    }
+}, {
+    "name": "Vlad Boboc",
+    "title": "Design",
+    "imageUrl": "images/team/77round_Boobminator.png",
+    "sn": {
+        "facebook": "https://www.facebook.com/vlad.bobo",
+        "linkedin": "https://www.linkedin.com/in/vlad-boboc-302996a4"
+    }
+}, {
+    "name": "Marian Ilașcu",
+    "title": "Website",
+    "imageUrl": "images/team/35square_Marian.png",
+    "sn": {
+        "facebook": "https://www.facebook.com/marian.ilascu",
+        "linkedin": "https://www.linkedin.com/in/marian-ilascu-b1520a69"
+    }
+}, {
+    "name": "Răzvan Tudosa",
+    "title": "Website",
+    "imageUrl": "images/team/27square_Razvan.png",
+    "sn": {
+        "facebook": "https://www.facebook.com/razvan.tudosa.3?fref=ts",
+        "linkedin": "https://ro.linkedin.com/in/razvantudosa"
     }
 }, {
     "name": "Cristi Niamțu",
@@ -37,44 +70,11 @@
         "facebook": "https://www.facebook.com/niamtu.cristi?fref=ts",
         "linkedin": "https://ro.linkedin.com/in/cristiniamtu"
     }
-}, {
-    "name": "Alina Axane",
-    "title": "PR",
-    "imageUrl": "images/team/72square_Alina.png",
+},{
+    "name": "Anca Croitoriu",
+    "title": "Sponsorizări",
+    "imageUrl": "images/team/40square_Anca.png",
     "sn": {
-        "facebook": "https://www.facebook.com/alina.axane?fref=ts",
-        "linkedin": "https://ro.linkedin.com/in/alinaxane"
-    }
-}, {
-    "name": "Iulia Pușcaru",
-    "title": "Design website & promo",
-    "imageUrl": "images/team/05square_Iulia.png",
-    "sn": {
-        "facebook": "https://www.facebook.com/juli.iul?fref=ts",
-        "linkedin": "https://www.linkedin.com/in/iulia-puscaru-5580ab58"
-    }
-}, {
-    "name": "Alexandru Pricop",
-    "title": "Design website & promo",
-    "imageUrl": "images/team/41square_Alex.png",
-    "sn": {
-        "facebook": "https://www.facebook.com/solozaur?fref=ts",
-        "linkedin": "https://www.linkedin.com/in/alexpricop"
-    }
-}, {
-    "name": "Marian Ilașcu",
-    "title": "Dezvoltator website",
-    "imageUrl": "images/team/35square_Marian.png",
-    "sn": {
-        "facebook": "https://www.facebook.com/marian.ilascu",
-        "linkedin": "https://www.linkedin.com/in/marian-ilascu-b1520a69"
-    }
-}, {
-    "name": "Răzvan Tudosa",
-    "title": "Dezvoltator website",
-    "imageUrl": "images/team/27square_Razvan.png",
-    "sn": {
-        "facebook": "https://www.facebook.com/razvan.tudosa.3?fref=ts",
-        "linkedin": "https://ro.linkedin.com/in/razvantudosa"
+        "linkedin": "https://ro.linkedin.com/in/anca-croitoriu-88728734"
     }
 }]
