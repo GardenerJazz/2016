@@ -18,24 +18,21 @@
         }
     },
     {
-        "id": "china-moses",
+        "id": "elsa-valle",
         "disabled": false,
-        "name": "China Moses",
-        "site": "http://www.chinamoses.com/",
+        "name": "Elsa Valle",
+        "site": "http://www.elsavalle.com/",
         "descriptions": [
-            "China is a woman of the new millennium. Born in the United States and raised in France, she is multi-dimensional in her pursuits. As a professional vocalist, songwriter, music producer, television and radio host, China recently released her fifth studio album, “Crazy Blues”, in conjunction with a licensing deal between Universal Music Group International and her own production company, MadeInChina Productions.",
-            "Balancing an international tour schedule with her other professional interests, she has produced documentaries and radio programs through her production company. Additionally, China co-founded Notorious Communication, a full-service public relations firm focusing on Fashion, Culture and entertainment, whose campaigns service top-tier clients, including Vans, Etnies, Nike and New Look among others.",
-            "Having signed her first contract with Virgin Records France at the age of fifteen, China has since navigated the French media world while developing her artistic career. In 1999, she launched her TV career on French music channel MCM, then joined the ranks of MTV International, in 2004, as \"On Air\" talent and music journalist for MTV France, where she worked until this year.",
-            "She spent a year appearing on France’s prime-time TV talk show, “Le Grand Journal,” airing on Canal+ and hosted a daily on-air show on JazzRadio. Out of these projects, China created a music sponsorship program for the ERDF group, for which she serves as an advisor.",
-            "Beyond her professional ventures, China is an active philanthropist. She is developing an ambassadorship program with UNESCO partner, International Music Council, to promote musical diversity and open access to culture. She routinely lends her participation to charitable ventures, such as “Solidarité Sida” (AIDS Solidarity) and “Tout le Monde Chante Contre le Cancer” (Everyone Sings Against Cancer) and is an advocate of the arts in education."
+            "Elsa Valle singer and composer born in Cuba - descendant of a prestigous musician family- living now in Europe studied in the best music academy in Havanna Escuela Nacional De Artes where such great musicians graduated as Paquito D' Rivera,Chucho Valdes,Arturo Sandoval, etc.",
+            "Shortly after graduating received her first appreciation at the famous Tropicana in Havana. She appeared at the most well-known Cuban and South-American festivals, earning worthily the praise of audience and critics at the famous Cuban festival ”Boleros De Oro”.",
+            "Her style can be defined as an interesting and fantastic blend of traditional and contemporary Cuban singing.",
+            "Her voice and singing is melancholic, luscious and explosively improvisational at the same time. She brought her music and wonderful voice to a worldwide public by appearing at jazz, Latin and pop festivals as San Remo Festival or La Bienal Flamenco Festival.",
+            "She performed on stages captivated by Estremeno, Santana, Al di Meola or the legendary Cuban musicians from Buena Vista Social Club. Together with Jose Luis Monton and her brother, the Cuban pianist Ramón Valle, she contributed at several tours of Maria Serano’s flamenco dance show."
         ],
-        "imageUrl": "images/artists/china-moses/china-moses.jpg",
-        "youtubeVideo": "https://www.youtube.com/v/N9Qx1lYgJ5o",
+        "imageUrl": "images/artists/elsa-valle/elsa-valle.jpg",
+        "youtubeVideo": "https://www.youtube.com/v/ivgm_hzzgJg",
         "sn": {
-            "facebook": "https://www.facebook.com/chinamoses/?fref=ts",
-            "twitter": "https://twitter.com/chinamoses",
-            "youtube": "https://www.youtube.com/user/mllechina",
-            "instagram": "https://www.instagram.com/chinamoses/"
+            "facebook": "https://www.facebook.com/Elsa-Valle-Official-427073267317455/"
         }
     },
     {
@@ -110,6 +107,20 @@
         "sn": {
             "facebook": "https://www.facebook.com/EdmondBilalBand/?fref=ts",
             "youtube": "https://www.youtube.com/channel/UCIbTd7QqXfi6WgJl_2DgVdQ"
+        }
+    },
+    {
+        "id": "andra-botez",
+        "disabled": false,
+        "name": "Andra Botez Band",
+        "descriptions": [
+            "Andra Botez are 32 de ani si a terminat Facultatea de Filozofie Specializarea Sociologie si Facultatea de Interpretare Muzicala Sectia Canto. In 2004 si-a lansat primul album de compozitii proprii semnat Andra Hangiuc-Sublim, apoi a cantat alaturi de Berti Barbera in cadrul proiectului muzical iesean Jazz in Cartier si alaturi de Maria Raducanu la Festivalul de literatura \"Om bolnav\" Petrosani. In prezent este indrumator de tehnica vocala si colaborează cu mai multi artisti ieșeni care îndrăgesc jazz-ul la fel de mult ca Andra.",
+            "“Cei cu care cânt sunt prieteni dragi mie cu care cânt demult. Eu si Bogdan ne place sa cântăm cu toti cei care împărtășesc aceleași idei artistice. La acest festival ne am decis sa cântăm cu Raul, Codrin si Lucian pentru ca ne sunt nu doar prieteni, ci si oameni care ne sunt alaturi in proiectele muzicale cu elevii mei :)”"
+        ],
+        "imageUrl": "images/artists/andra-botez/andra-botez.png",
+        "youtubeVideo": "https://www.youtube.com/v/dysHlVixJSA",
+        "sn": {
+            "facebook": "https://www.facebook.com/andra.botez.1?fref=ts"
         }
     },
     {

@@ -1,7 +1,23 @@
 <section class="section">
     <h2 class="section__title">Program</h2>
     <div class="section__content">
-        <p>Programul va fi actualizat in curand.</p>
-        <p>Completati newsletter-ul si urmariti <a href="https://facebook.com/gardenerjazz" target="_blank">pagina de facebook</a> pentru a fi la curent cu ultimele noutati!</p>
+        <div class='table-responsive'>
+            <table class='table borderless'>
+                <tr ng-repeat="scheduleItem in vm.schedule">
+                    <td>{{scheduleItem.day}}</td>
+                    <td>
+                        <p ng-repeat="artist in scheduleItem.artists">
+                            {{artist}}<br/>
+                        </p>
+                    </td>
+                    <td>{{scheduleItem.location}}</td>
+                    <td>
+                        <button type="button" class="btn btn-default">
+                            <a href="{{scheduleItem.ticketsUrl}}" target="_blank">Cumpara bilet</a>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </section>

@@ -18,7 +18,8 @@
                     url: '/schedule',
                     views: {
                         '': {
-                            templateUrl: 'app/schedule/schedule.html'
+                            templateUrl: 'app/schedule/schedule.html',
+                            controller: 'ScheduleController as vm'
                         }
                     }
                 }
