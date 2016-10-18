@@ -23,29 +23,6 @@
         "linkedin": "https://www.linkedin.com/in/petronela-zaharia-459359a"
     }
 }, {
-    "name": "Anca Croitoriu",
-    "title": "Sponsorizări",
-    "imageUrl": "images/team/40square_Anca.png",
-    "sn": {
-        "linkedin": "https://ro.linkedin.com/in/anca-croitoriu-88728734"
-    }
-}, {
-    "name": "Cristi Niamțu",
-    "title": "PR",
-    "imageUrl": "images/team/51square_Cristi.png",
-    "sn": {
-        "facebook": "https://www.facebook.com/niamtu.cristi?fref=ts",
-        "linkedin": "https://ro.linkedin.com/in/cristiniamtu"
-    }
-}, {
-    "name": "Alina Axane",
-    "title": "PR",
-    "imageUrl": "images/team/72square_Alina.png",
-    "sn": {
-        "facebook": "https://www.facebook.com/alina.axane?fref=ts",
-        "linkedin": "https://ro.linkedin.com/in/alinaxane"
-    }
-}, {
     "name": "Iulia Pușcaru",
     "title": "Design",
     "imageUrl": "images/team/05square_Iulia.png",
@@ -62,6 +39,14 @@
         "linkedin": "https://www.linkedin.com/in/alexpricop"
     }
 }, {
+    "name": "Vlad Boboc",
+    "title": "Design",
+    "imageUrl": "images/team/77round_Boobminator.png",
+    "sn": {
+        "facebook": "https://www.facebook.com/vlad.bobo",
+        "linkedin": "https://www.linkedin.com/in/vlad-boboc-302996a4"
+    }
+}, {
     "name": "Marian Ilașcu",
     "title": "Website",
     "imageUrl": "images/team/35square_Marian.png",
@@ -76,5 +61,20 @@
     "sn": {
         "facebook": "https://www.facebook.com/razvan.tudosa.3?fref=ts",
         "linkedin": "https://ro.linkedin.com/in/razvantudosa"
+    }
+}, {
+    "name": "Cristi Niamțu",
+    "title": "PR",
+    "imageUrl": "images/team/51square_Cristi.png",
+    "sn": {
+        "facebook": "https://www.facebook.com/niamtu.cristi?fref=ts",
+        "linkedin": "https://ro.linkedin.com/in/cristiniamtu"
+    }
+},{
+    "name": "Anca Croitoriu",
+    "title": "Sponsorizări",
+    "imageUrl": "images/team/40square_Anca.png",
+    "sn": {
+        "linkedin": "https://ro.linkedin.com/in/anca-croitoriu-88728734"
     }
 }]
