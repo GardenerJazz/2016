@@ -1,8 +1,20 @@
-<div class="row col-lg-6">
+<div class="row col-lg-12">
+    <h2>Partener principal</h2>
+    <a
+        class="partner main-partner"
+        style="background-image: url({{vm.mainPartner.image}})"
+        ng-href="{{vm.mainPartner.url}}"
+        target="_blank"
+        title="{{vm.mainPartner.name}}"
+        >
+    </a>
+</div>
+<div class="row col-lg-12">
     <h2>Sponsori</h2>
     <a
         ng-repeat="sponsor in vm.sponsors"
-        class="partner col-xs-4 col-sm-3"
+        class="partner col-xs-4"
+        ng-class="{'col-sm-3': $index < 4, 'col-sm-2': $index >= 4}"
         style="background-image: url({{sponsor.image}})"
         ng-href="{{sponsor.url}}"
         target="_blank"
@@ -10,12 +22,25 @@
         >
     </a>
 </div>
-<div class="row col-lg-1"></div>
-<div class="row col-lg-5">
+<div class="row col-lg-6">
     <h2>Parteneri</h2>
     <a
         ng-repeat="partner in vm.partners"
-        class="partner col-xs-4 col-sm-3"
+        class="partner col-xs-4"
+        ng-class="{'col-sm-3': $index < 4, 'col-sm-2': $index >= 4}"
+        style="background-image: url({{partner.image}})"
+        ng-href="{{partner.url}}"
+        target="_blank"
+        title="{{partner.name}}"
+        >
+    </a>
+</div>
+<div class="row col-lg-1"></div>
+<div class="row col-lg-5">
+    <h2>Parteneri Media</h2>
+    <a
+        ng-repeat="partner in vm.mediaPartners"
+        class="partner col-xs-6 col-sm-4"
         style="background-image: url({{partner.image}})"
         ng-href="{{partner.url}}"
         target="_blank"
